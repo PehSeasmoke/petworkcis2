@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #80cbc4;
+    color: white;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header input {
+    width: 40%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+header .icons span {
+    margin-left: 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.sidebar-left {
+    width: 200px;
+    background-color: #00897b;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.sidebar-left ul {
+    list-style: none;
+}
+
+.sidebar-left ul li {
+    padding: 15px 0;
+    cursor: pointer;
+}
+
+.sidebar-left ul li:hover {
+    text-decoration: underline;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+main {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.tips-articles h2,
+.qna h2,
+.recommendations h2 {
+    color: #00897b;
+    margin-bottom: 15px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+
+article h3 {
+    color: #00897b;
+}
+
+article p {
+    margin: 10px 0;
+}
+
+article a {
+    color: #00897b;
+    text-decoration: none;
+}
+
+.qna form {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.qna textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.qna button {
+    padding: 10px;
+    background-color: #00897b;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.qna button:hover {
+    background-color: #00796b;
+}
+
+.recommendations ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.recommendations ul li {
+    margin: 10px 0;
+}
+
+.recommendations ul li a {
+    color: #00897b;
+    text-decoration: none;
+}
+
+.sidebar-right {
+    width: 250px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-right h3 {
+    color: #00897b;
+    margin-bottom: 15px;
+}
+
+.suggestions ul {
+    list-style: none;
+    padding: 0;
+}
+
+.suggestions ul li {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.ads p {
+    color: #333;
+    font-weight: bold;
+}

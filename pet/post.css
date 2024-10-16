@@ -1,0 +1,61 @@
+.posts-section {
+    flex: 1;
+}
+
+.post-input {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.post-input textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.post-input button {
+    margin-top: 10px;
+    background-color: #00897b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.post-input button:hover {
+    background-color: #00897b;
+}
+
+.post {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    font-weight: bold;
+}
+
+.post-actions button {
+    background-color: #00897b;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.post-actions button:hover {
+    background-color: #00897b;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}

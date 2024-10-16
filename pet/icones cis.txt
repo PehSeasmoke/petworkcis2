@@ -1,0 +1,10 @@
+icones bootstrap
+
+inicio - house
+amigos - people
+eventos - calendar-event
+cuidados - clipboard2-plus
+
+sininho - bell
+chat - chat-left-text
+sobre nos - info-circle

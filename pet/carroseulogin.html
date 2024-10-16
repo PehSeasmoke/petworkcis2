@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quem Somos </title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #80cbc4;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+    .interactive-section {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 0;
+    }
+
+    .block {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 20px 0;
+      width: 80%;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .block img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .block-text {
+      max-width: 500px;
+    }
+
+    .block-text h3 {
+      font-size: 1.8rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .block-text p {
+      font-size: 1.1rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 40px 0;
+    }
+
+    .btn-cadastrar {
+      background-color: #80cbc4;
+      color: white;
+      font-size: 1.5rem;
+      padding: 15px 30px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .btn-cadastrar:hover {
+      background-color: #80cbc4;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    Petwork
+  </header>
+
+  <div class="interactive-section">
+    <div class="block">
+      <img src="divclass.jpg" alt="Pet 1">
+      <div class="block-text">
+        <h3>Conecte-se com Outros Amantes de Pets</h3>
+        <p>
+          Nossa rede é o lugar perfeito para encontrar pessoas que compartilham do seu amor por animais.
+          Compartilhe histórias, fotos e experiências com uma comunidade apaixonada.
+        </p>
+      </div>
+    </div>
+
+    <div class="block">
+      <div class="block-text">
+        <h3>Encontre Amigos para Seu Pet</h3>
+        <p>
+          Conheça outros pets na sua região e agende encontros para socializar e brincar.
+          A felicidade do seu pet está a um clique de distância!
+        </p>
+      </div>
+      <img src="petsjuntos.jpg" alt="Pet 2">
+    </div>
+
+    <div class="block">
+      <img src="lovepet.jpg" alt="Pet 3">
+      <div class="block-text">
+        <h3>Compartilhe Momentos Incríveis</h3>
+        <p>
+          Publique fotos dos momentos especiais com seu pet e veja como a comunidade reage.
+          Cada momento merece ser celebrado!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="btn-container">
+    <a href="login.php" class="btn-cadastrar">Cadastre-se Agora</a>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
